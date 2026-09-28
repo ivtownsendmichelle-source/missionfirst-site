@@ -754,3 +754,20 @@ footer .mf-mark { --mf-logo-bg: var(--surface-tint); }
   .built-text p { font-size: 16px; }
   .work-method { margin-top: 2.5rem; }
 }
+
+/* "What does stuck look like?" 2026-09-28: situations a visitor can recognize, between the Rising Phoenix story and The gap.
+   Reuses the steps' ruled rows and the About list's apricot markers so it reads as part of the page, not a service grid. */
+.stuck { padding: 80px 0; background: var(--paper); }
+.stuck-grid { display: grid; grid-template-columns: 1fr; gap: 2rem 4rem; }
+.stuck h2 { color: var(--brand); text-wrap: balance; }
+.stuck .soft { margin-top: 0.75rem; font-size: 1.05rem; max-width: 34ch; }
+.stuck-list { list-style: none; border-top: 1px solid var(--line); max-width: 62ch; }
+.stuck-list li { position: relative; padding: 1.1rem 0 1.1rem 1.75rem; border-bottom: 1px solid var(--line); color: var(--ink); font-size: 1.05rem; line-height: 1.6; }
+.stuck-list li::before { content: ''; position: absolute; left: 0; top: calc(1.1rem + 0.55em); width: 0.6rem; height: 0.6rem; border-radius: 1px; background: var(--accent); }
+.stuck-list a { color: var(--brand); font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.stuck-list a:hover, .stuck-list a:focus-visible { color: var(--accent-deep); }
+.stuck-close { margin-top: 1.5rem; color: var(--ink); font-size: 1.15rem; font-weight: 600; line-height: 1.55; max-width: 56ch; }
+.stuck .text-link { margin-top: 1rem; }
+@media (min-width: 900px) { .stuck-grid { grid-template-columns: 5fr 7fr; align-items: start; } }
+@media (max-width: 899px) { .stuck-list a { display: inline; padding: 12px 0; } }
+@media (max-width: 600px) { .stuck { padding: 52px 0; } .stuck-list li { font-size: 16px; } .stuck-close { font-size: 17px; } }

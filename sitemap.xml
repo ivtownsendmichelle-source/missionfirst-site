@@ -1,63 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.missionfirst.ai/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>1.0</priority>
+    <loc>https://missionfirst.ai/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/resources/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/resources/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/resources/before-your-team-uses-a-chatbot/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/resources/before-your-team-uses-a-chatbot/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/resources/questions-to-ask-a-vendor-about-your-data/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/resources/questions-to-ask-a-vendor-about-your-data/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/resources/browser-extensions-and-ai-add-ons/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/resources/browser-extensions-and-ai-add-ons/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/resources/one-page-ai-use-policy/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/resources/one-page-ai-use-policy/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/readiness/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/mission-desk/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/security-checkup/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/voice-studio/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/toolmap/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/readiness/</loc>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/mission-desk/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/security-checkup/</loc>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
-    <loc>https://www.missionfirst.ai/voice-studio/</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.8</priority>
+    <loc>https://missionfirst.ai/toolmap/</loc>
+    <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://missionfirst.ai/vramcalculator/</loc>
-    <lastmod>2026-08-29</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-09-27</lastmod>
   </url>
 </urlset>

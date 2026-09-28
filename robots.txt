@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.missionfirst.ai/sitemap.xml
+Sitemap: https://missionfirst.ai/sitemap.xml
