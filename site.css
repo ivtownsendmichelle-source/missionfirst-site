@@ -771,3 +771,17 @@ footer .mf-mark { --mf-logo-bg: var(--surface-tint); }
 @media (min-width: 900px) { .stuck-grid { grid-template-columns: 5fr 7fr; align-items: start; } }
 @media (max-width: 899px) { .stuck-list a { display: inline; padding: 12px 0; } }
 @media (max-width: 600px) { .stuck { padding: 52px 0; } .stuck-list li { font-size: 16px; } .stuck-close { font-size: 17px; } }
+
+/* 2026-09-28: Rising Phoenix screenshot removed (Michelle's call). On desktop the heading sits left and the story right, like the other two-column sections. */
+@media (min-width: 900px) { .built-story { grid-template-columns: 5fr 7fr; grid-template-areas: "head text"; grid-template-rows: auto; } }
+
+/* 2026-09-28: Resources hub, one featured card beside its section heading (the stuck checkup). */
+.feature-row { display: grid; grid-template-columns: 1fr; gap: 1.5rem 4rem; }
+.feature-row .section-head { margin-bottom: 0; }
+.feature-row .feature-card { grid-template-columns: 1fr; max-width: 520px; }
+@media (min-width: 900px) { .feature-row { grid-template-columns: 6fr 5fr; align-items: center; } }
+/* Homepage "What does stuck look like?": a quieter second path to the stuck checkup. */
+.stuck-next { margin-top: 0.5rem; color: var(--ink-soft); font-size: 0.98rem; }
+.stuck-next a { color: var(--brand); text-decoration: underline; text-decoration-color: var(--line); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.stuck-next a:hover, .stuck-next a:focus-visible { color: var(--accent-deep); text-decoration-color: var(--accent); }
+@media (max-width: 899px) { .stuck-next a { display: inline-block; min-height: 44px; padding-top: 10px; padding-bottom: 10px; } }
