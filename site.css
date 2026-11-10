@@ -678,6 +678,12 @@ footer .mf-mark { --mf-logo-bg: var(--surface-tint); }
 }
 /* Copy round 3, 2026-09-28: who-it-suits line, "What you leave with", phone screenshot. */
 .hero-who { font-size: 15px; line-height: 1.55; font-weight: 600; color: var(--accent-deep); max-width: 44ch; margin: -8px 0 16px; }
+/* First-screen pass, 2026-11-10: audience line takes the intro slot, free call gets its own line. */
+.hero .hero-intro { max-width: 30ch; margin-bottom: 14px; }
+.hero-offer { font-size: 17px; line-height: 1.5; color: var(--ink); max-width: 62ch; margin-top: 16px; padding-left: 14px; border-left: 3px solid var(--accent); }
+.hero-offer + .hero-actions { margin: 20px 0 16px; }
+.hero-offer strong { color: var(--brand); font-weight: 700; }
+@media (max-width: 640px) { .hero-offer { font-size: 16px; } }
 .leave { background: var(--surface-tint); padding: 64px 0; }
 .leave-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem 4rem; }
 @media (min-width: 900px) { .leave-grid { grid-template-columns: 5fr 7fr; align-items: start; } }
